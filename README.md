@@ -35,23 +35,6 @@ The workflow is designed to:
 * Evaluate the stability of selected features.
 * Train a final model using the complete dataset.
 
-## Applications
-
-The workflow can be applied to binary classification problems in areas such as:
-
-* Bioinformatics
-* Transcriptomics
-* Genomics
-* Proteomics
-* Metabolomics
-* Agricultural data analysis
-* Medical data analysis
-* Disease classification
-* Stress-response classification
-* Environmental studies
-* Image-derived numerical data
-* General high-dimensional datasets
-
 
 ## Machine Learning Models
 
@@ -92,7 +75,8 @@ Inner validation: Stratified cross-validation
 .......
 These settings can be modified depending on sample size, class distribution and computational resources.
 
-## NOTE: For most binary classification datasets, "stratified K-fold cross-validation" is preferred because it maintains the class distribution within each fold. When feature selection, preprocessing and hyperparameter tuning are performed, nested "stratified cross-validation" is more appropriate because it separates model optimization from final performance evaluation. For very small datasets, "LOOCV" may be considered, although repeated stratified K-fold cross-validation often provides a more stable estimate.
+## NOTE:  
+For most binary classification datasets, "stratified K-fold cross-validation" is preferred because it maintains the class distribution within each fold. When feature selection, preprocessing and hyperparameter tuning are performed, nested "stratified cross-validation" is more appropriate because it separates model optimization from final performance evaluation. For very small datasets, "LOOCV" may be considered, although repeated stratified K-fold cross-validation often provides a more stable estimate.
 
 ## Workflow
 
