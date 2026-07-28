@@ -46,17 +46,17 @@ Gradient Boosting
 supervised-binary-classification/
 ├── README.md
 ├── scripts/
-│   ├── 01_main_binary_classification.R
-│   └── plots/
-│       ├── 01_model_performance_barplot.R
-│       ├── 02_outer_fold_boxplots.R
-│       ├── 03_roc_curves_top6.R
-│       ├── 04_confusion_matrix_best_model.R
-│       ├── 05_confusion_matrices_all_models.R
-│       ├── 06_top30_feature_importance.R
-│       ├── 07_top30_selection_stability.R
-│       └── 08_top100_feature_heatmap.R
-└── results/
+    ├── 01_main_binary_classification.R
+    └── plots/
+        ├── 01_model_performance_barplot.R
+        ├── 02_outer_fold_boxplots.R
+        ├── 03_roc_curves_top6.R
+        ├── 04_confusion_matrix_best_model.R
+        ├── 05_confusion_matrices_all_models.R
+        ├── 06_top30_feature_importance.R
+        ├── 07_top30_selection_stability.R
+        └── 08_top100_feature_heatmap.R
+
 
 
 ## Input files (use DESeq2 normalised counts file)
