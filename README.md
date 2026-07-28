@@ -45,7 +45,6 @@ Gradient Boosting
 
 supervised-binary-classification/
 ├── README.md
-├── .gitignore
 ├── scripts/
 │   ├── 01_main_binary_classification.R
 │   └── plots/
@@ -58,6 +57,7 @@ supervised-binary-classification/
 │       ├── 07_top30_selection_stability.R
 │       └── 08_top100_feature_heatmap.R
 └── results/
+
 
 ## Input files (use DESeq2 normalised counts file)
 
